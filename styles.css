@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+.calc-button-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.screen {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px;
+    font-size: 40px;
+}
+.clac-button {
+    background-color: #d8d9db;
+    color: #000000;
+    font-size: 40px;
+    border: none;
+    height: 100px;
+    flex-basis: 24.5%;
+}
+.clac-button:hover {
+    background-color: #ebebeb;
+}
+.clac-button:active {
+    background-color: #bbbcbe;
+}
+.double {
+ flex-basis: 49.7%;
+}
+.tripple {
+   flex-basis: 74.8%;
+}
+.clac-button:last-child {
+    background-color: #df974c;
+    color: white;
+}
+.clac-button:last-child:hover {
+    background-color: #dfb07e;
+}
+.clac-button:last-child:active {
+    background-color: #dd8d37;
+}
